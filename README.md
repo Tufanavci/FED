@@ -56,31 +56,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  De website van Voetbalprimeur scoort goed voor mensen met een beperking betreft het gebruiken van de website. Echter kunnen de links, nav wel een stuk netter,consistenter en uitgebreider beschreven worden.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Zelf was ik afwezig bij de eerste werkgroep in verband met werk. Ik heb de test uitgevoerd op mijn eigen website.
+  Allereerst de screenrecorder. Wat opvalt is dat de navigatiemenu niet wordt benoemd. In de voice over is er geen onderscheid tussen een nav item en een link voor een specifiek artikel. Dit zal dan voor verwarring kunnen zorgen. Door meer informatie te geven kan je het probleem oplossen. Geef uitgebreider aan waar je naar toe navigeert in de link.
+  <img src="werkgroepen-images/screanreader-nav.png" width="1440px" alt="Image Voetbalprimeur screenreader nav">
+  <img src="werkgroepen-images/screanreader-link.png" width="1440px" alt="Image Voetbalprimeur screenreader link">
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Met de tab button navigeer je op een logische volgorde van item.
+  Met de pijltjes kan je eenvoudig heen en weer scrollen
+  Eenvoudige states. Nav heeft geen verschillende states.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Kleurenblinden zullen eenvoudig door de website kunnen navigeren. Zowel de verschillende emulations voor "vision deficiences" als de dark mode werken goed.
+  <img src="werkgroepen-images/darkmode.png" width="1440px" alt="Image Voetbalprimeur darkmode">
+    <img src="werkgroepen-images/achromatopsia.png" width="1440px" alt="Image Voetbalprimeur achromatopsia">
+  <img src="werkgroepen-images/blurred-vision.png" width="1440px" alt="Image Voetbalprimeur blurred">
+  <img src="werkgroepen-images/pratanopia.png" width="1440px" alt="Image Voetbalprimeur pratanopia">
+    <img src="werkgroepen-images/tritanopia.png" width="1440px" alt="Image Voetbalprimeur tritanopia">
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  
 </details>
 
 
