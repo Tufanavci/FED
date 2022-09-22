@@ -79,6 +79,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     <img src="werkgroepen-images/tritanopia.png" width="1440px" alt="Image Voetbalprimeur tritanopia">
 
 
+<h1>Dit is nog werk in progress. Niet alles staat er op</h1>
   
 </details>
 
@@ -90,7 +91,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets - home1.pdf" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets - home2.pdf" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets - home3.pdf" width="375px" alt="breakdown van de hele pagina">
+
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">

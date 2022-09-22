@@ -1,16 +1,17 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin:0;
 }
 
-button, summary {
+button,
+summary {
 	cursor: pointer;
 }
-
-
-
 
 
 /*********************/
@@ -18,12 +19,9 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
 }
-
-
-
 
 
 /****************/
@@ -33,7 +31,98 @@ button, summary {
 /* jouw code */
 
 body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+	color: var(--color-text);
+	background-color: var(--color-background);
 }
 
+/* margin:0 auto;
+	width:95%;
+	max-width: 1440px;
+ */
+
+
+/*  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	background: linear-gradient(45deg, #38207C, #2E52AE);
+}
+
+ul {
+	list-style: none;
+}
+
+
+/* 
+CODE
+VOOR
+DE
+HEADER
+*/
+
+.headercol {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 1440px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* .buttonheader button{
+	display: none;
+} */
+
+/* Responsive voor header */
+
+@media (min-width: 748px) and (max-width: 1024px) {
+
+	.headercol a{
+		order:-1
+	}
+
+}
+
+
+@media (min-width:1024px) {
+
+	.headercol a{
+		order:-1
+	}
+
+	.usericon{
+		display: none;
+	}
+}
+
+
+
+/* 
+EINDE
+CODE
+VOOR
+DE
+HEADER
+
+*/
+
+
+
+
+/* Responsive main vanaf mobiele breakpoint */
+
+@media (min-width:748px) {
+
+	.usericon{
+		display: none;
+	}
+}
