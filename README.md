@@ -144,7 +144,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Op het gebied van kennis ben ik mijzelf met de dag steeds meer aan het verbeteren. Ik heb nu alle huiswerkopdracht gedaan tot en met de Javascript opdrachten. De kennis hiervan was tot op zekere hoogte wel al duidelijk bij mezelf. Ik wist hoe je flex,grid,position en basic javascript moest toepassen. Echter wist ik blijkbaar niet hoe je dit op de juiste manier moest toepassen. Zo probeer ik mijzelf nu zo semantisch en net mogelijk code aan te leren. Het spiekbriefje van css volgorde houd ik aan en ik probeer op de juiste manier elementen te selecteren (dus geen onnodige classes bijvoorbeeld). Al deze kennis heb ik gelukkig meegekregen omdat ik het huiswerk volledig heb gemaakt.
 
-  Nu is het de beurt om deze kennis toe te passen voor de code van mijn eigen werk. Ik had in mijn planning om op 6 oktober de website te gaan bouwen. Helaas heb ik dit niet kunnen doen vanwege een hele zieke oma die op haar sterfbed ligt. Op 6 oktober ben ik met de hele famillie naar het ziekenhuis gegaan om afscheid te nemen. Hierdoor heb ik niet de aandacht aan mijn opdracht kunnen geven.
+  Nu is het de beurt om deze kennis toe te passen voor de code van mijn eigen werk. Ik had in mijn planning om op 6 oktober de website te gaan bouwen. Helaas heb ik dit niet kunnen doen vanwege een hele zieke oma die op haar sterfbed ligt. Hierdoor heb ik niet de aandacht aan mijn opdracht kunnen geven.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
