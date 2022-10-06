@@ -114,13 +114,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Display Flex & Grid zijn dingen waar ik dagelijks mee werk. De opdrachten die hiervoor gedaan moesten worden waren redelijk eenvoudig. Ik ben daarom direct begonnen met het bouwen van mijn website. Ik heb hierbij wat problemen met de header. Vooral bij mijn dropwdown mobile header en styling van mijn button loop ik vast. Dit probeer ik ook beantwoord te hebben tijdens het voortgangsgesprek
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Tijn neve     | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -128,12 +128,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Mijn vragen voor mijn header zijn beantwoord. Ik had allereerst een mobile navigatiemenu proberen te bouwen met alleen css en veel display nones. Beide zijn semantisch niet correct en daarom ook een no-go. Ik heb uitleg gekregen hoe ik het wel moet doen op de juiste manier. Verder hebben we vooral besproken welk html element je nou specifiek voor dingen moet gebruiken. Ook is er uitgelegd hoe je precies een mobile navigatiemenu moet bouwen of hoe je het best met overflow kunt werken. Dit zijn dingen die ik heb meegenomen.
 
 </details>
 
@@ -147,26 +142,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Op het gebied van kennis ben ik mijzelf met de dag steeds meer aan het verbeteren. Ik heb nu alle huiswerkopdracht gedaan tot en met de Javascript opdrachten. De kennis hiervan was tot op zekere hoogte wel al duidelijk bij mezelf. Ik wist hoe je flex,grid,position en basic javascript moest toepassen. Echter wist ik blijkbaar niet hoe je dit op de juiste manier moest toepassen. Zo probeer ik mijzelf nu zo semantisch en net mogelijk code aan te leren. Het spiekbriefje van css volgorde houd ik aan en ik probeer op de juiste manier elementen te selecteren (dus geen onnodige classes bijvoorbeeld). Al deze kennis heb ik gelukkig meegekregen omdat ik het huiswerk volledig heb gemaakt.
 
+  Nu is het de beurt om deze kennis toe te passen voor de code van mijn eigen werk. Ik had in mijn planning om op 6 oktober de website te gaan bouwen. Helaas heb ik dit niet kunnen doen vanwege een hele zieke oma die op haar sterfbed ligt. Op 6 oktober ben ik met de hele famillie naar het ziekenhuis gegaan om afscheid te nemen. Hierdoor heb ik niet de aandacht aan mijn opdracht kunnen geven.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Robin langhorst
+  Hoe je een button in de navigatie kan verwerken (hamburger menu en zoekbalk)
 
+  Yente van der Aart
+  Inhoudelijke vraag over iets wat niet werkt in haar css
+
+  Tijn Neve
+  Wil een video als achtergrond, en header sticky werkt niet.
+
+  Tufan Avci
+  vraag over hoe ik z-index het best kan toepassen als ik een element een lagere z-index wil geven dan zijn parent
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
 
 </details>
 
