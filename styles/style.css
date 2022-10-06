@@ -5,8 +5,8 @@
 *::after,
 *::before {
 	box-sizing: border-box;
-	margin:0;
-	padding: 0;	
+	margin: 0;
+	padding: 0;
 	font-family: 'Lato', sans-serif;
 
 }
@@ -23,6 +23,7 @@ summary {
 :root {
 	/* startje */
 	--color-text: #111;
+	--color-nav: #38207C;
 	--color-background: #eee;
 }
 
@@ -47,18 +48,18 @@ ul {
 header {
 	background: linear-gradient(90deg, #38207C, #2E52AE);
 	position: sticky;
-	top:0;
-	height:auto;
+	top: 0;
+	height: auto;
 	padding: 1rem 0;
 
 	z-index: 47274;
 }
 
-header a{
-	color:white;
+header a {
+	color: white;
 	text-decoration: none;
 	font-weight: 500;
-	font-size:1.15rem;
+	font-size: 1.15rem;
 }
 
 
@@ -79,28 +80,32 @@ header a{
 
 
 
-.streepjes{
+.streepjes {
 	display: flex;
 	align-items: center;
 }
 
-button:not([disabled]), summary {
-	cursor:pointer;
+button:not([disabled]),
+summary {
+	cursor: pointer;
 }
 
 
-.streepjes button{
+.streepjes button {
 	border: none;
 
 	background-color: transparent;
 }
 
-.streepjes nav{
+.streepjes nav {
 	z-index: -1;
 	overflow-y: auto;
 
 	position: absolute;
-	top:-100vh; right:0; bottom:0; left:0;
+	top: -100vh;
+	right: 0;
+	bottom: 0;
+	left: 0;
 
 
 	height: 100vh;
@@ -112,14 +117,17 @@ button:not([disabled]), summary {
 	transition: 1s;
 }
 
-.streepjes nav.dropdownmenu{
+.streepjes nav.dropdownmenu {
 	z-index: -1;
 
 	overflow-y: auto;
 
 
 	position: absolute;
-	top:4.17rem; right:0; bottom:0; left:0;
+	top: 4.17rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
 
 	height: 100vh;
 	padding: 3rem 0 10rem 2rem;
@@ -130,7 +138,7 @@ button:not([disabled]), summary {
 	opacity: 1;
 }
 
-.streepjes nav li{
+.streepjes nav li {
 	z-index: -1;
 	padding-bottom: 1.4em;
 
@@ -144,7 +152,7 @@ button:not([disabled]), summary {
 /***********************/
 /***********************/
 :root {
-  --color-button-text:#fff;
+	--color-button-text: #fff;
 }
 
 /****************************/
@@ -152,112 +160,189 @@ button:not([disabled]), summary {
 /** ALLE BLOKJES & BUTTONS **/
 /****************************/
 /****************************/
-main > section > ul > li {
+main>section>ul>li {
 	/* de buttons in het midden van de li's positioneren */
-	display:grid;
-	place-content:center;
-  }
-  
-  /*****************************/
-  /*****************************/
-  /** EERSTE STREEPJES BUTTON **/
-  /*****************************/
-  /*****************************/
-  
-  section.streepjes li:nth-of-type(1) button {
-	  /* grid om de 3 spans in het midden van de button te positioneren */
-	  display:grid;
-	  place-items:center;
-	}
-	
-	/* alledrie de streepjes */
-	section.streepjes li:nth-of-type(1) button span {
-	  /* alledrie de spans in de eerste kolom en rij */
-	  /* ze staan dan over elkaar heen*/
-	  grid-row-start:1;
-	  grid-column-start:1;
-	  
-	  /* grootte en kleur van de streepjes */
-	  width:1.2em;
-	  height:.2em;
-	  background-color:var(--color-button-text);
-	  
-	  /* transities duren .5s */
-	  transition-duration:.5s;
-	}
-	
-	/* het eerste streepje */
-	section.streepjes li:nth-of-type(1) button span:nth-of-type(1) {
-	  /* met transform: */
-	  /* .4em omhoog */
-	  /* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY */
-	  transform:translateY(-.4em);
-	}
-	
-	/* het derde streepje */
-	section.streepjes li:nth-of-type(1) button span:nth-of-type(3) {
-	  /* met transform: */
-	  /* .4em omlaag */
-	  transform:translateY(.4em);
-	}
-	
-	/***********************************************************/
-	/* als de EERSTE STREEPJES BUTTON de classs menuOpen heeft */
-	/***********************************************************/
-	
-	/* het eerste streepje */
-	section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(1) {
-	  /* met transform: */
-	  /* 1: 45 graden draaien met de klok mee */
-	  /* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate */
-	  /* 2: 25% langer maken */
-	  /* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX*/
-	  transform:rotate(45deg) scalex(1.25);
-	}
-	
-	/* het tweede streepje */
-	section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(2) {
-	  /* met opacity helemaal doorzichtig maken */
-	  opacity:0;
-	}
-	
-	/* het derde streepje */
-	section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(3) {
-	  /* met transform: */
-	  /* 1. 45 graden draaien tegen de klok in */
-	  /* 2. 25% langer maken */
-	  transform:rotate(-45deg) scalex(1.25);
-	}
-  
+	display: grid;
+	place-content: center;
+}
+
+/*****************************/
+/*****************************/
+/** EERSTE STREEPJES BUTTON **/
+/*****************************/
+/*****************************/
+
+section.streepjes li:nth-of-type(1) button {
+	/* grid om de 3 spans in het midden van de button te positioneren */
+	display: grid;
+	place-items: center;
+}
+
+/* alledrie de streepjes */
+section.streepjes li:nth-of-type(1) button span {
+	/* alledrie de spans in de eerste kolom en rij */
+	/* ze staan dan over elkaar heen*/
+	grid-row-start: 1;
+	grid-column-start: 1;
+
+	/* grootte en kleur van de streepjes */
+	width: 1.2em;
+	height: .2em;
+	background-color: var(--color-button-text);
+
+	/* transities duren .5s */
+	transition-duration: .5s;
+}
+
+/* het eerste streepje */
+section.streepjes li:nth-of-type(1) button span:nth-of-type(1) {
+	/* met transform: */
+	/* .4em omhoog */
+	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY */
+	transform: translateY(-.4em);
+}
+
+/* het derde streepje */
+section.streepjes li:nth-of-type(1) button span:nth-of-type(3) {
+	/* met transform: */
+	/* .4em omlaag */
+	transform: translateY(.4em);
+}
+
+/***********************************************************/
+/* als de EERSTE STREEPJES BUTTON de classs menuOpen heeft */
+/***********************************************************/
+
+/* het eerste streepje */
+section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(1) {
+	/* met transform: */
+	/* 1: 45 graden draaien met de klok mee */
+	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate */
+	/* 2: 25% langer maken */
+	/* developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX*/
+	transform: rotate(45deg) scalex(1.25);
+}
+
+/* het tweede streepje */
+section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(2) {
+	/* met opacity helemaal doorzichtig maken */
+	opacity: 0;
+}
+
+/* het derde streepje */
+section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(3) {
+	/* met transform: */
+	/* 1. 45 graden draaien tegen de klok in */
+	/* 2. 25% langer maken */
+	transform: rotate(-45deg) scalex(1.25);
+}
 
 
-.aanmeldenheadermobile{
-	margin-left: -40px;
+
+/* button in header die verandert */
+.aanmeldenheadermobile {
+	all: unset;
 	overflow: hidden;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	background: white;
 
+	display: flex;
+	align-items: center;
+}
+
+.aanmeldenheadermobile p {
+	padding-left: 3rem;
+}
+
+.aanmeldenheader img{
+	width: 3rem;
+	height: 3rem;
+	padding-left:-5rem ;
+}
+
+@media (min-width:748px) {
+	.aanmeldenheader {
+		all: unset;
+		overflow: hidden;
+		width: 8rem;
+		height: 2.5rem;
+		border-radius: 3px;
+		background: white;
+		text-align: center;
+		color: var(--color-nav);
+		border: 1px solid white;
+
+		transition: .1s;
+	}
+
+	.aanmeldenheader p {
+		padding-left: 0rem;
+		color: var(--color-nav);
+		font-weight: 800;
+		font-size: 1rem;
+		justify-content: center;
+		align-items: flex-start;
+
+	}
+
+	.aanmeldenheader img{
+		width: 0;
+		height: 0;
+		display: none;	}
+
+	.aanmeldenheader:hover {
+		color: red;
+		background: transparent;
+		border: 1px solid white;
+	}
+
+	.aanmeldenheader:hover p:hover {
+		color: white;
+	}
 }
 
 
 
 
-	/* Responsive voor header */
+/* main 
+display grid, structuur bepalen
+
+*/
+
+.wrapper{
+	margin:0 auto;
+	width:100%;
+	display:grid;
+	grid-column-gap: 10px;
+	grid-template-columns: 2fr 1fr;
+  
+  }
+  
+ 
+
+
+
+
+
+
+
+/* Responsive voor header */
 
 @media (min-width: 748px) and (max-width: 1024px) {
 
-	.headercol a{
-		order:-1
-	}
-
+	
 }
 
 
 @media (min-width:1024px) {
 
-	.headercol a{
-		order:-1
+	.headercol a {
+		order: -1
 	}
 
-	.usericon{
+	.usericon {
 		display: none;
 	}
 }
@@ -270,9 +355,7 @@ main > section > ul > li {
 
 @media (min-width:748px) {
 
-	.usericon{
+	.usericon {
 		display: none;
 	}
 }
-
-
