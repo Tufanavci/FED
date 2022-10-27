@@ -51,8 +51,7 @@ header {
 	top: 0;
 	height: auto;
 	padding: 1rem 0;
-
-	z-index: 47274;
+	z-index: 30;
 }
 
 header a {
@@ -66,7 +65,7 @@ header a {
 
 
 
-.headercol {
+header>section:first-of-type {
 	margin: 0 auto;
 	width: 95%;
 	max-width: 1080px;
@@ -98,7 +97,6 @@ summary {
 }
 
 .streepjes nav {
-	z-index: -1;
 	overflow-y: auto;
 
 	position: absolute;
@@ -118,7 +116,7 @@ summary {
 }
 
 .streepjes nav.dropdownmenu {
-	z-index: -1;
+	z-index: 1;
 
 	overflow-y: auto;
 
@@ -139,7 +137,7 @@ summary {
 }
 
 .streepjes nav li {
-	z-index: -1;
+
 	padding-bottom: 1.4em;
 
 	overflow-y: auto;
@@ -160,11 +158,7 @@ summary {
 /** ALLE BLOKJES & BUTTONS **/
 /****************************/
 /****************************/
-main>section>ul>li {
-	/* de buttons in het midden van de li's positioneren */
-	display: grid;
-	place-content: center;
-}
+
 
 /*****************************/
 /*****************************/
@@ -256,10 +250,10 @@ section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(3) {
 	padding-left: 3rem;
 }
 
-.aanmeldenheader img{
+.aanmeldenheader img {
 	width: 3rem;
 	height: 3rem;
-	padding-left:-5rem ;
+	padding-left: -5rem;
 }
 
 @media (min-width:748px) {
@@ -287,10 +281,11 @@ section.streepjes li:nth-of-type(1) button.menuOpen span:nth-of-type(3) {
 
 	}
 
-	.aanmeldenheader img{
+	.aanmeldenheader img {
 		width: 0;
 		height: 0;
-		display: none;	}
+		display: none;
+	}
 
 	.aanmeldenheader:hover {
 		color: red;
@@ -311,34 +306,103 @@ display grid, structuur bepalen
 
 */
 
-.wrapper{
-	margin:0 auto;
-	width:100%;
-	display:grid;
-	grid-column-gap: 10px;
-	grid-template-columns: 2fr 1fr;
-  
-  }
-  
- 
+main {
+	margin: 0 auto;
+	width: 100%;
+	display: grid;
+	grid-column-gap: .5rem;
+	grid-template-columns: 1fr 1fr;
+
+	margin: 0 auto;
+	width: 95%;
+	max-width: 1080px;
+	padding: 0;
+
+}
 
 
 
+/* Eerste grid item met drie hoofdartikelen */
 
+
+.grid1 {
+
+	grid-column-start:1; 
+	grid-column-end:3; 
+	
+}
+
+.grid1 img {
+	max-width: 100%;
+} 
+
+
+.grid1 ul li {
+	position: relative;
+
+	height: 400px;
+	max-width: 100%;
+
+	margin: 2rem 0;
+
+}
+
+.grid1 ul li a > img {
+	position: absolute;
+	object-fit: cover;
+   width: 100%;
+   height: 100%;
+	
+	bottom: 0;
+	left: 0;
+	
+	opacity:.1;
+	z-index: 1;
+}
+
+.grid1 ul li a > section {
+
+	position: absolute;
+
+	bottom: 1rem;
+	left:1rem;
+
+}
+
+/* aantal comments met het icoontje naast elkaar */
+
+main>section:nth-of-type(1) ul section > section{
+	display: flex;
+	align-items: center;
+	gap: .3rem;
+
+	z-index: 5;
+
+}
+
+/* style van comment icoontje en order veranderen voor screenreaders  */
+
+main>section:nth-of-type(1) ul section > section img {
+	max-height: 1rem;
+	order: -1;
+
+}
+
+main>section:nth-of-type(1) ul section > section p {
+	color: #a2a2a4;
+	font-size: .5rem;
+}
 
 
 
 /* Responsive voor header */
 
-@media (min-width: 748px) and (max-width: 1024px) {
-
-	
-}
+@media (min-width: 748px) and (max-width: 1024px) {}
 
 
 @media (min-width:1024px) {
 
-	.headercol a {
+	header section section:nth-of-type(2) {
 		order: -1
 	}
 
@@ -353,9 +417,4 @@ display grid, structuur bepalen
 
 /* Responsive main vanaf mobiele breakpoint */
 
-@media (min-width:748px) {
-
-	.usericon {
-		display: none;
-	}
-}
+@media (min-width:748px) {}
