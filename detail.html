@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Voetbalprimeur Detailpagina" content="Voetbalprimeur Detailpagina">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:100,900' rel='stylesheet' type='text/css'>
+
+    <title>Voetbalprimeur - Nieuws</title>
+
+    <link href="styles/detail.css" rel="stylesheet">
+    <link href="styles/general.css" rel="stylesheet">
+
+
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <section class="streepjes">
+                <ul>
+                    <li aria-label="de 3 spans graal">
+                        <button aria-label="menu">
+                            <span class="menuOpen"></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </li>
+                    <!-- dropdown menu items als je op hamburger klikt -->
+                    <nav>
+                        <ul class="dropdownmenu">
+                            <li><a href="/nieuws"> Nieuws</a></li>
+                            <li><a href="/wedstrijden"> Wedstrijden</a></li>
+                            <li><a href="/competitie"> Competitie</a></li>
+                            <li><a href="/clubs"> Clubs</a></li>
+                            <li><a href="/transfernieuws"> Transfernieuws</a></li>
+                            <li><a href="/transfergeruchten"> Transfergeruchten</a></li>
+                        </ul>
+                        <ul class="dropdownmenu">
+                            <li><a href="/eredivisie"> Eredivisie</a></li>
+                            <li><a href="/ajax"> Ajax</a></li>
+                            <li><a href="/feyenoord"> Feyenoord</a></li>
+                            <li><a href="/psv"> PSV</a></li>
+                            <li><a href="/champions league"> Champions League</a></li>
+                            <li><a href="/premier league"> Premier league</a></li>
+                        </ul>
+                        <section>
+                            <h3>REGISTREER JE BIJ VOETBALPRIMEUR EN:</h3>
+                            <ul class="dropdownmenu">
+                                <li>Reageer op artikelen</li>
+                                <li>Ontvang notivicaties bij likes en reacties</li>
+                                <li>Maak deel uit van de leukste sportcommunity van Nederland!</li>
+                            </ul>
+                            <button>Registreer nu <svg viewBox="0 0 32 32" viewBox="0 0 32 32" aria-hidden="true"
+                                    fill="currentColor">
+                                    <path
+                                        d="M18.629 15.997l-7.083-7.081L13.462 7l8.997 8.997L13.457 25l-1.916-1.916z" />
+                                </svg></button>
+                        </section>
+                    </nav>
+                </ul>
+                <nav>
+                    <a href="/nieuws">Nieuws</a>
+                    <a href="/wedstrijden"> Wedstrijden</a>
+                    <a href="/wedstrijden"> Wedstrijden</a>
+                    <a href="/competitie"> Competitie</a>
+                    <a href="/clubs"> Clubs</a>
+                    <a href="/transfernieuws"> Transfernieuws</a>
+                    <input type="search" placeholder="Zoeken...">
+                </nav>
+            </section>
+            <section>
+                <a href="/home">
+                    <img src="//vp.cdn.pxr.nl/images/vp/logo-light.svg" alt="Voetbalprimeur logo">
+                </a>
+            </section>
+            <section>
+                <button class="aanmeldenheader aanmeldenheadermobile" type="button" alt="">
+                    <img src="/images/SVG/icon-user.svg" alt="profiel icoontje voor de profiel button">
+                    <p>Aanmelden</p>
+                </button>
+                <section class="profielvenster">
+                    <button class="toets"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                            fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg></button>
+                    <img src="https://vp.cdn.pxr.nl/images/vp/logo-dark.svg" alt="">
+                    <section>
+                        <input class="radio" id="inloggen" name="group" type="radio" checked>
+                        <input class="radio" id="registreren" name="group" type="radio">
+                        <div class="tabs">
+                            <label class="tab" id="tab-een" for="inloggen">Inloggen</label>
+                            <label class="tab" id="tab-twee" for="registreren">Registreren</label>
+                        </div>
+                        <section class="tabscontainer">
+                            <section id="tabs1">
+                                <form action="" method="get" class="form">
+                                    <div class="form">
+                                        <label for="name">NAAM</label>
+                                        <input type="text" name="naam" id="naam" placeholder="Gebruikersnaam" required>
+                                    </div>
+                                    <div class="form">
+                                        <label for="email">WACHTWOORD </label>
+                                        <input type="password" name="wachtwoord" id="wachtwoord"
+                                            placeholder="Wachtwoord" required>
+                                    </div>
+                                    <div class="form">
+                                        <input type="submit" value="Inloggen">
+                                    </div>
+                                </form>
+                                <div>
+
+                                    <p>Of gebruik</p>
+                                    <div class="stijlbutton">
+                                        <button>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                            </svg>
+                                            <p> Aanmelden met Facebook</p>
+                                        </button>
+                                        <button><svg viewBox="0 0 170 170" fill="currentColor">
+                                                <path
+                                                    d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.197-2.12-9.973-3.17-14.34-3.17-4.58 0-9.492 1.05-14.746 3.17-5.262 2.13-9.501 3.24-12.742 3.35-4.929.21-9.842-1.96-14.746-6.52-3.13-2.73-7.045-7.41-11.735-14.04-5.032-7.08-9.169-15.29-12.41-24.65-3.471-10.11-5.211-19.9-5.211-29.378 0-10.857 2.346-20.221 7.045-28.068 3.693-6.303 8.606-11.275 14.755-14.925s12.793-5.51 19.948-5.629c3.915 0 9.049 1.211 15.429 3.591 6.362 2.388 10.447 3.599 12.238 3.599 1.339 0 5.877-1.416 13.57-4.239 7.275-2.618 13.415-3.702 18.445-3.275 13.63 1.1 23.87 6.473 30.68 16.153-12.19 7.386-18.22 17.731-18.1 31.002.11 10.337 3.86 18.939 11.23 25.769 3.34 3.17 7.07 5.62 11.22 7.36-.9 2.61-1.85 5.11-2.86 7.51zM119.11 7.24c0 8.102-2.96 15.667-8.86 22.669-7.12 8.324-15.732 13.134-25.071 12.375a25.222 25.222 0 0 1-.188-3.07c0-7.778 3.386-16.102 9.399-22.908 3.002-3.446 6.82-6.311 11.45-8.597 4.62-2.252 8.99-3.497 13.1-3.71.12 1.083.17 2.166.17 3.24z" />
+                                            </svg>
+                                            <p>Log in met Apple</p>
+                                        </button>
+                                    </div>
+                                    <a href="/wachtwoord-vergeten">Wachtwoord vergeten</a>
+
+                            </section>
+                            <section id="tabs2">
+                            </section>
+                        </section>
+                    </section>
+
+                </section>
+            </section>
+        </section>
+    </header>
+
+    <main>
+
+        <section>
+            <img src="/images/Nieuws - Memphis is weer eens geblesseerd. Het zal eens niet.jpeg" alt="">
+            <h1>'Barcelona geeft toestemming: geblesseerde Memphis is al in Nederland'</h1>
+            <section>
+                <section>
+                    <p>11:57, Vandaag</p>
+                    <p>Laatste update: 12:02</p>
+                    <img src="/images/icon-klok.png" alt="">
+                </section>
+                <section>
+
+                    <a href="#reacties">
+                        <p>111</p>
+                        <img src="/images/SVG/icon - comments aantal.svg" alt="">
+                    </a>
+                </section>
+                <section>
+                    <a target="_blank" href="//youtube.com">
+                        <figure>
+                            <img src="/images/SVG/icon-youtube.svg" alt="">
+                        </figure>
+                    </a>
+                    <a target="_blank" href="//facebook.com">
+                        <figure>
+                            <img src="/images/SVG/icon-facebook.svg" alt="">
+                        </figure>
+                    </a>
+                    <a target="_blank" href="//rssfeeds.nl">
+                        <figure>
+                            <img src="/images/SVG/icon-rssfeed.svg" alt="">
+                        </figure>
+                    </a>
+                </section>
+            </section>
+
+            <section>
+                <p><a href="/voetballer/memphisdepay">Memphis Depay </a> heeft <a href="/club/fcbarcelona"> FC Barcelona
+                    </a> om toestemming gevraagd om de laatste dagen ter voorbereiding op het
+                    WK in <a href="/land/nederland">Nederland</a> door te brengen. De Catalanen hebben daarmee
+                    ingestemd.
+                </p>
+                <p>Memphis kampt nog altijd met een dijbeenblessure. Na het duel van zaterdag wist hij al dat hij
+                    dinsdagavond tegen Osasuna opnieuw niet in actie zou kunnen komen. Om die reden heeft hij de club
+                    gevraagd om alvast af te reizen naar Nederland om zijn herstel daar af te ronden met een personal
+                    trainer.
+                </p>
+                <p>Barcelona heeft hem daar toestemming voor gegeven, maar wel op de voorwaarde dat de twee partijen in
+                    contact blijven over de laatste updates van zijn herstel. De ploeg van trainer Xavi Hernández traint
+                    woensdag voor het laatst.
+                </p>
+                <p>Memphis liep zijn blessure op tijdens het Nations League-duel met Polen. Sindsdien kwam hij niet meer
+                    in actie. Er ging rond dat Memphis zijn herstel bewust zou hebben vertraagd, maar dat is onzin
+                    volgens hem.
+
+                </p>
+            </section>
+            <section>
+                <h3>LEES MEER OVER</h3>
+                <a href="/PrimeraDivision">PRIMERA DIVISION</a>
+                <a href="/WK2022">WK 2022</a>
+                <a href="/fcbarcelona">FC BARCELONA</a>
+                <a href="/nederland">NEDERLAND </a>
+            </section>
+            <section>
+                <h3>Deel via</h3>
+                <section>
+                    <a target="_blank" href="//youtube.com">
+                        <figure>
+                            <img src="/images/SVG/icon-youtube.svg" alt="">
+                        </figure>
+                    </a>
+                    <a target="_blank" href="//facebook.com">
+                        <figure>
+                            <img src="/images/SVG/icon-facebook.svg" alt="">
+                        </figure>
+                    </a>
+                    <a target="_blank" href="//rssfeeds.nl">
+                        <figure>
+                            <img src="/images/SVG/icon-rssfeed.svg" alt="">
+                        </figure>
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>TRANSFERS</h2>
+                <a href="/video's">Bekijk meer >
+                </a>
+            </section>
+            <a href="/nieuws-gakpo is populair">
+                <section>
+                    <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                    <section>
+                        <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                        <div>
+                            <p>12 reacties</p>
+                            <img src="/images/SVG/icon - comments aantal.svg" alt="">
+
+                        </div>
+                    </section>
+                </section>
+            </a>
+            <a href="/nieuws-gakpo is populair">
+                <section>
+                    <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                    <section>
+                        <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                        <div>
+                            <p>12 reacties</p>
+                            <img src="/images/SVG/icon - comments aantal.svg" alt="">
+
+                        </div>
+                    </section>
+                </section>
+            </a>
+
+            <a href="/nieuws-gakpo is populair">
+                <section>
+                    <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                    <section>
+                        <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                        <div>
+                            <p>12 reacties</p>
+                            <img src="/images/SVG/icon - comments aantal.svg" alt="">
+
+                        </div>
+                    </section>
+                </section>
+            </a>
+
+
+
+
+
+
+        </section>
+
+
+        <section>
+            <section>
+                <h2>Populair op VP</h2>
+                <a href="/video's">Bekijk meer >
+                </a>
+            </section>
+            <section>
+                <input class="radio" id="gelezen" name="group" type="radio" checked>
+                <input class="radio" id="reacties" name="group" type="radio">
+
+                <section class="reactieslabel">
+                    <label id="tab-gelezen" for="gelezen">Meest gelezen</label>
+                    <label id="tab-reacties" for="reacties">Meeste Reacties</label>
+
+                </section>
+                <section class="reactiessectie">
+                    <section id="gelezen-tab">
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>37,4k keer gelezen </p>
+                                        <img src="/images/SVG/icon-aantalkeergelezen.svg" alt="">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a>
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>37,4k keer gelezen </p>
+                                        <img src="/images/SVG/icon-aantalkeergelezen.svg" alt="">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a>
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>37,4k keer gelezen </p>
+                                        <img src="/images/SVG/icon-aantalkeergelezen.svg" alt="">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a>
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>37,4k keer gelezen </p>
+                                        <img src="/images/SVG/icon-aantalkeergelezen.svg" alt="">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a>
+                    </section>
+
+                    <section id="reacties-tab">
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>402 reacties </p>
+                                        <img src="/images/SVG/icon - comments aantal.svg" alt="Icoon aantal comments">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a>
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>374 reacties </p>
+                                        <img src="/images/SVG/icon - comments aantal.svg" alt="Icoon aantal comments">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a>
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>321 reacties </p>
+                                        <img src="/images/SVG/icon - comments aantal.svg" alt="Icoon aantal comments">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a>
+                        <a href="/nieuws-gakpo is populair">
+                            <section>
+                                <img src="/images/Nieuws - Gakpo is populair.jpeg" alt="">
+                                <section>
+                                    <h3>Halve Premier League bekijkt Gakpo tegen Ajax</h3>
+                                    <div>
+                                        <p>308 reacties </p>
+                                        <img src="/images/SVG/icon - comments aantal.svg" alt="Icoon aantal comments">
+
+                                    </div>
+                                </section>
+                            </section>
+                        </a> </section>
+
+                </section>
+            </section>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <section>
+            <figure>
+                <a href="/home">
+
+                    <img src="//vp.cdn.pxr.nl/images/vp/logo-light.svg" alt="Voetbalprimeur logo">
+                </a>
+            </figure>
+            <ul>
+                <li>
+                    <h2>OVER</h2>
+                </li>
+                <li> <a href="/contact">Contact</a>
+                </li>
+                <li><a href="/Adverteren">Adverteren</a></li>
+                <li> <a href="/colofon">Colofon</a>
+                </li>
+                <li> <a href="/tip-de-redactie">Tip de redactie</a>
+                </li>
+                <li> <a href="/werken-bij">Werken bij</a>
+                </li>
+                <li> <a href="/rss-feeds">RSS feeds</a>
+                </li>
+                <li> <a href="/speel-bewust">Speel bewust</a>
+
+            </ul>
+            <ul>
+
+                <li>
+                    <h2>TRENDING</h2>
+                </li>
+                <li> <a href="/eredivisie">Eredivisie</a>
+                </li>
+                <li><a href="/ajax">Ajax</a></li>
+                <li> <a href="/feyenoord">Feyenoord</a>
+                </li>
+                <li> <a href="/psv">PSV</a>
+                </li>
+                <li> <a href="/wk2022">WK 2022</a>
+                </li>
+                <li> <a href="/nederland">Nederland</a>
+                </li>
+                <li> <a href="/az">Az</a>
+
+            </ul>
+            <section>
+                <h2>SOCIAL</h2>
+                <div>
+                    <a target="_blank" href="//www.facebook.com/voetbalprimeur">
+                        <figure>
+                            <img src="/images/SVG/icon-facebook.svg"
+                                alt="Facebook icon - navigeer naar de facebookpagina van Voetbalprimeur">
+                        </figure>
+                    </a>
+                    <a target="_blank" href="//www.twitter.com/voetbalprimeur">
+                        <figure>
+                            <img src="/images/SVG/icon-twitter.svg"
+                                alt="Twitter icon - navigeer naar de Twitterpagina van Voetbalprimeur">
+                        </figure>
+                    </a>
+                    <a target="_blank" href="//www.instagram.com/voetbalprimeur">
+                        <figure>
+                            <img src="/images/SVG/icon-instagram.svg"
+                                alt="Instagram icon - navigeer naar de Instagram pagina van Voetbalprimeur">
+                        </figure>
+                    </a>
+
+                    <a target="_blank" href="//www.youtube.com/voetbalprimeur">
+                        <figure>
+                            <img src="/images/SVG/icon-youtube.svg"
+                                alt="Youtube icon - navigeer naar de Youtubepagina van Voetbalprimeur">
+                        </figure>
+                    </a>
+                    <a target="_blank" href="//www.rssfeed.com/voetbalprimeur">
+                        <figure>
+                            <img src="/images/SVG/icon-rssfeed.svg"
+                                alt="RSS feed icon - navigeer naar de RSS Feed pagina van Voetbalprimeur">
+                        </figure>
+                    </a>
+                </div>
+
+            </section>
+        </section>
+        <div></div>
+        <section>
+            <section>
+                <a href="/algemene-voorwaarden">Algemene voorwaarden</a>
+                <p>&</p>
+                <a href="/privacy-statement">Privacy statement</a>
+            </section>
+            <section>
+                <p>© 2022 SportsWeb International B.V. Alle rechten voorbehouden.
+                </p>
+            </section>
+        </section>
+    </footer>
+
+    <script defer src="scripts/script.js"></script>
+</body>
+
+</html>
